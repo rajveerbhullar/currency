@@ -1,0 +1,53 @@
+body{
+  background-image: url(./abc.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 600px;
+  left: 50%;
+  top:50%;
+  
+
+}
+
+.Top{
+  margin: 85px;
+}
+
+#sim{
+  text-align: center;
+  font-size: 2.5rem;
+  left: 60%;
+  top:50%;
+  bottom: 20%;
+  color: rgb(243, 219, 3);
+}
+
+.PB{
+  font-size: 1.6rem;
+}
+
+h3{
+  color: blue;
+}
+
+#Converted{
+  color: rgb(243, 207, 3);
+}
+#Rj{
+  height:700px ;
+  width:400px ;
+  background: #1b2a31;
+  color:rgb(240, 232, 232);
+  left: 60%;
+  top:30%;
+  position: absolute;
+  box-sizing: border-box;
+  transform: translate(-50%,-50%);
+  padding:90px 30px ;
+  bottom: 20%;
+}
+#ama{
+  color: rgb(243, 207, 3);
+}

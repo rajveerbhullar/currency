@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Raj.css" rel="stylesheet" type="text/css"/>
+  
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "row">
+            <div class = "Top" id="Rj">
+                <div class = "Rp"id ="sim">
+                    Currency Converter
+                </div>
+
+                <div class="PB">
+                    <div>
+                        <label for="InputBase">From Currency</label>
+                        <select name="selectCurrencyToConvert" class="form-control" id="Ba">
+                            <option value=" ">Select Your Currency</option>
+                            <option value="INR">Indian Rupyee</option>
+                            <option value="USD">United State Dollar</option>
+                            <option value="EUR">European Euro</option>
+                            <option value="CAD">Canadian Dollar</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="OutputCurrency">To Currency</label>
+                        <select name="ConvertedCurrency" class="form-control" id="PH">
+                            <option value=" ">Select Your Currency</option>
+                            <option value="INR">Indian Rupyee</option>
+                            <option value="USD">United State Dollar</option>
+                            <option value="EUR">European Euro</option>
+                            <option value="CAD">Canadian Dollar</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="Amount">Amount</label>
+                        <input type="text" id="AM" class="form-control" placeholder="Enter Amount here">
+                    </div>
+
+                    <div>
+                        <br>
+                        <button class="prm" onclick="convert();">
+                            Convert
+                        </button>
+                    </div>
+                    <br>
+                    <div>
+                        <strong>Output: </strong>
+                        <h3 id="Converted"></h3>
+                    </div>
+                    <h1 id="result"></h1>
+                    <button onclick="season()">Season</button>
+                     <h1 id="ama"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="Bhullar.js"></script>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
